@@ -3,13 +3,14 @@
 }*/
 
 html {
-    margin: 0;
+    margin: 100px auto;
     width: 575px;
     height: 385px;
 }
 
 body {
     margin: 0;
+    
 }
 
 .container {
@@ -19,6 +20,8 @@ body {
     width: 578px;
     height: 385px;
     background: #1B244A;
+    border: 5px solid #F94F6D;
+    border-radius: 5px;
 }
 
     /* board-title-home */
@@ -122,6 +125,12 @@ body {
     justify-content: space-around;
 }
 
+#resetBtn {
+    margin-top: 170px;
+    width: 100px;
+    background-color: #F94F6D;
+}
+
 button {
     margin-top: 5px;
     border-radius: 5px;
@@ -130,4 +139,5 @@ button {
     height: 45px;
     width: 45px;
     background: #1B244A;
+    box-shadow: 0 0 4px #EEEEEE;
 }

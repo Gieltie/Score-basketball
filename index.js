@@ -32,3 +32,10 @@ function add3Guest() {
     countGuest += 3
     scoreGuest.textContent = countGuest
 }
+
+function reset() {
+    countGuest = 0
+    countHome = 0
+    scoreGuest.textContent = countGuest
+    scoreHome.textContent = countHome
+}
